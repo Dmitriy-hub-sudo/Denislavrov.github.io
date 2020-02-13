@@ -26,7 +26,37 @@ nav{
 	width: 100%;
 	font-family: SFmed, sans-serif;
 }
+#photo-banner {
+   width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center
+}
+#photo-banner-img {
+    display: block;
+max-width: 100%;
+height: auto;
+    margin: 0 auto;
 
+}
+#photo-banner:hover {
+    cursor: pointer
+}
+.@media(max-width: 1920px) {
+    #photo-banner-img {
+        content: url()
+    }
+}
+.@media(max-width: 1024px) {
+    #photo-banner-img {
+        content: url()
+    }
+}
+.@media(max-width: 490px) {
+    #photo-banner-img {
+        content: url()
+    }
+}
 .hide{
 	position: relative;
 	z-index: 10;
