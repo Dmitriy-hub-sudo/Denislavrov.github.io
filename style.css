@@ -9,6 +9,16 @@
 	color: #fff;
 	background: #ea4c89;
 }
+.swiper-zoom-container {
+    padding: 1% 0;
+    display: flex;
+  align-items: center;
+    height:100%
+}
+.image1 {
+padding: 1% 0;
+margin: 0 
+}
 body {
 	min-width: 320px;
 	overflow-x: hidden;
@@ -239,6 +249,7 @@ main{
 	align-items: center;
 	padding: 0 30px;
 	height: auto;
+	min-height: 100%
 }
 
 .project-slider__item img {
